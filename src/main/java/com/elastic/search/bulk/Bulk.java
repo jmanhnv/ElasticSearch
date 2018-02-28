@@ -45,8 +45,7 @@ public class Bulk {
 			StringBuilder sb = new StringBuilder();
 			while (true) {
 				String text = br.readLine();
-				if (text == null)
-					break;
+				if (text == null) break;
 				sb.append(text);
 			}
 			return sb.toString();
